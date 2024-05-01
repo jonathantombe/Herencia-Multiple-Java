@@ -1,0 +1,7 @@
+1. Una interfaz en Java es una colección de métodos abstractos. En Java, una interfaz es similar a una clase abstracta en la que todos los métodos son abstractos, es decir, no tienen implementación. Las interfaces permiten la especificación de métodos que una clase debe implementar sin especificar cómo se implementan.
+2. Un método abstracto en una clase o interfaz significa que no tiene implementación en la clase o interfaz en la que se declara. Las clases que implementan una interfaz deben proporcionar implementaciones para todos los métodos abstractos definidos en la interfaz.
+3. No, no se pueden crear instancias de una interfaz en Java. Una interfaz define un contrato que las clases concretas pueden implementar, pero no puede ser instanciada directamente.
+4. Para crear un objeto que implemente una interfaz, primero necesitas crear una clase que implemente esa interfaz y luego puedes instanciar esa clase.
+5. Una clase puede implementar múltiples interfaces en Java. Esto permite que la clase adquiera las funcionalidades especificadas por cada interfaz.
+6. Java no admite herencia múltiple en el sentido de que una clase no puede extender más de una clase directamente. Sin embargo, Java permite que una clase implemente múltiples interfaces, lo que proporciona una forma de lograr un comportamiento similar al de la herencia múltiple.
+7. En Java, la herencia múltiple se implementa mediante interfaces. Una clase puede implementar múltiples interfaces, lo que le permite heredar comportamientos de todas esas interfaces.
